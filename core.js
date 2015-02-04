@@ -4,7 +4,7 @@ var app = {
   modules: {},
   module : function(name) {
     if (this.modules[name]) return this.modules[name];
-  };
+  }
 }
 
 /*
