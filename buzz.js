@@ -1,11 +1,13 @@
-appName.define("buzz", ["foo", "bar"], function(){
-    
-	function okThen(who) {
-        return "Ok then, " + who;
-    }
+'use strict';
 
-    return {
-        okThen: okThen
-    };
-	
+appName.define("buzz", ["foo", "bar"], function(){
+
+  function okThen(who) {
+    return "Ok then, " + who;
+  };
+
+  return {
+    okThen: okThen
+  };
+
 });
