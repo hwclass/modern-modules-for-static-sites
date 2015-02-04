@@ -1,11 +1,13 @@
-appName.define("bar", [], function(){
-    
-	function hello(who) {
-        return "Let me introduce: " + who;
-    }
+'use strict';
 
-    return {
-        hello: hello
-    };
-	
+appName.define("bar", [], function(){
+
+  function hello(who) {
+    return "Let me introduce: " + who;
+  };
+
+  return {
+    hello: hello
+  };
+
 });
