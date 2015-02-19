@@ -1,4 +1,6 @@
-appName.define("index", ["config", "bar"], function(config, bar){
+'use strict';
+
+module.define("index", ["config", "bar"], function(config, bar){
     
   function getConfig () {
     return config;

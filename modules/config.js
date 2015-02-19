@@ -1,6 +1,6 @@
 'use strict';
 
-appName.define("config", [], function () {
+module.define("config", [], function () {
 
   var title = 'Main Page';
 
