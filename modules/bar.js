@@ -1,13 +1,21 @@
+/*
+ * Module :: bar.js
+ * Info : Module for initializing code for bar view.
+ */
+
 'use strict';
 
 module.define("bar", [], function(){
 
-  function hello(who) {
+  /**
+   * sayHello is a method that is used to say hello
+   */
+  function sayHello(who) {
     return "Let me introduce: " + who;
   };
 
   return {
-    hello: hello
+    sayHello: sayHello
   };
 
 });

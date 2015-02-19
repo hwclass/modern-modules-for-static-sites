@@ -1,15 +1,23 @@
+/*
+ * Module :: foo.js
+ * Info : Module for initializing code for foo view.
+ */
+
 'use strict';
 
 module.define("foo", ["bar"], function(bar){
 
-  var hungry = "test";
+  var strName = "Dusty";
 
-  function awesome() {
-    console.log(bar.hello(hungry).toUpperCase());
+  /**
+   * sayHelloToSomeone is a method that is used to say hello with injected bar module and its inner sayHello method 
+   */
+  function sayHelloToSomeone() {
+    console.log(bar.sayHello(strName).toUpperCase());
   };
 
   return {
-    awesome: awesome
+    sayHelloToSomeone: sayHelloToSomeone
   };
 
 });
