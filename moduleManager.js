@@ -1,9 +1,9 @@
+'use strict';
+
 /*
  * Module :: moduleManager.js
  * Info : Module for managing the other modules.
  */
-
-'use strict';
 
 var module = (function ModuleManager() {
 

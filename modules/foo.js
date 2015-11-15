@@ -7,7 +7,7 @@
 
 module.define("foo", ["bar"], function(bar){
 
-  var strName = "Dusty";
+  var strName = "laçin";
 
   /**
    * sayHelloToSomeone is a method that is used to say hello with injected bar module and its inner sayHello method 
